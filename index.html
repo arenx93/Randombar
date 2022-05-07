@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/header-nav-gallery.css" />
+    <link rel="stylesheet" href="./assets/css/about-body.css" />
+    <script
+      defer
+      src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"
+    ></script>
+    <script defer src="./js/main.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header__container">
+      <div class="header__logo">
+        <img src="./assets/logo.png" alt="" />
+        <h1>RANDOMBAR</h1>
+      </div>
+      <nav class="nav__menu" id="nav-menu">
+        <i class="bx bx-x header__close" id="close_menu"></i>
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">Inicio</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Galeria</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Comidas</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Tragos</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Eventos</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacto">Contacto</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Nosotros</a></li>
+        </ul>
+      </nav>
+      <i class="bx bx-menu header__toggle" id="toggle_menu"></i>
+    </header>
+    <hr />
+
+    <!-- Contenedor main - galeria preview -->
+    <main class="main__container">
+      <section class="section__gallery-prev">
+        <div class="section__container-grid">
+          <img src="./assets/2.png" alt="" />
+          <img src="./assets/4.png" alt="" />
+          <img src="./assets/3.png" alt="" />
+          <img src="./assets/1.png" alt="" />
+          <img src="./assets/5.png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <!-- Seccion sobre nosotros -->
+      <section class="section__about">
+        <div class="about__flex">
+          <div class="about__img">
+            <img src="./assets/6.jpeg" alt="" />
+          </div>
+          <div class="section__text">
+            <h1>Sobre Nosotros</h1>
+            <p>
+              Random un patio cervecero ubicado en el corazón de alta Cordoba en
+              frente a la plaza, contamos con 14 canillas y proveedores de todo
+              el país que nos traen las variedades más ricas de cerveza
+              artesanal, para acompañar tenemos una buena carta gastronómica
+              (cabe aclarar que toda la elaboración es casera) en ella podes
+              encontrar hamburguesas Gourmet, variedades de pizzas, papas
+              rústicas, calamares fritos y todo lo que acompañe a la anfitriona
+              que es la cerveza.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seccion trabaja con nosotros -->
+      <section class="section__social" id="contacto">
+        <article class="section__socials">
+          <i class='bx bxl-facebook social__icon' ></i>
+          <h4><a href="https://www.facebook.com/randombar.ok/" target="_blank">Facebook</a></h4>
+        </article>
+        <article class="section__socials">
+          <i class='bx bxl-instagram social__icon' ></i>
+          <h4><a href="https://www.instagram.com/randombar.ok" target="_blank">Instragram</a></h4>
+        </article>
+        <article class="section__socials">
+          <i class='bx bxl-whatsapp social__icon' ></i>
+          <h4><a href="https://walink.co/0ab386" target="_blank">Whatsapp</a></h4>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer__container">
+      <ul class="footer_nav__list">
+        <li class="footer_nav__item"><a class="nav__link" href="#">Inicio</a></li>
+        <li class="footer_nav__item"><a class="nav__link" href="#">Galeria</a></li>
+        <li class="footer_nav__item"><a class="nav__link" href="#">Comidas</a></li>
+        <li class="footer_nav__item"><a class="nav__link" href="#">Tragos</a></li>
+        <li class="footer_nav__item"><a class="nav__link" href="#">Eventos</a></li>
+        <li class="footer_nav__item"><a class="nav__link" href="">Contacto</a></li>
+        <li class="footer_nav__item"><a class="nav__link" href="">Nosotros</a></li>
+      </ul>
+      <small>&copy; Rafael Cortez. All rights reserved.</small>
+    </footer>
+  </body>
+</html>
